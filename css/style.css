@@ -1,0 +1,354 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.menuPrincipal{
+    list-style: none;
+    padding: 0%;
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+}
+.menuPrincipal li a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    display: block;
+    margin: 5px;
+    padding: 0px;
+    
+}
+.menuPrincipal li{
+    display: inline-block;
+    border: black 2px solid; 
+    color:black;
+}
+
+ header{
+    background-image: url(./10-108170_geometric-blue-yellow-4k-ultra-hd-mobile-wallpaper.jpg);
+    border: gray solid 1px;
+    
+}
+
+nav ul{
+    background-image: url(./10-108170_geometric-blue-yellow-4k-ultra-hd-mobile-wallpaper.jpg);
+    color: white;
+}
+
+footer{
+    background-image: url(./10-108170_geometric-blue-yellow-4k-ultra-hd-mobile-wallpaper.jpg);
+    text-align: center;
+    border:white solid 1px;
+}
+footer ul{
+    background-color: #ff94cc;
+}
+
+
+
+.centrado {
+    text-align: center;
+   
+}
+nav ul  {
+    list-style-type: none;
+  }
+
+  h1{
+    color: black;
+    text-align: center;
+}
+ul{
+    color: chartreuse;
+    text-align: center;
+}
+h2{
+    color:black;
+    text-align: center;
+    padding: 60px;
+    border: gray solid 1px;
+    
+    
+    
+}
+th{
+    
+    padding: 10px;
+}
+tr{
+    background-color: white;
+    text-align: center;
+    border: black 2px solid;
+    padding: 10px;
+}
+body{
+    background-color:white;
+    font-family: 'Kanit', sans-serif; 
+ 
+}
+.imageMarcas{
+    background-color:#ff94cc ;
+}
+.colorAsideHome{
+    background-color: #ff94cc;
+}
+.centradoLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.sobreNosotros{
+    
+    text-align:center;
+    color: black;
+    border: 5px solid black;
+    margin: 10%;
+    width: 800px;
+    height: 500px;
+    margin-left: 25%;
+    overflow: auto;
+    padding: 10px;
+  
+ }
+ .publicidad{
+     height: 100%;
+     width: 20%;
+     text-align: center;
+ }
+  ul ul{
+    position: absolute;
+    display: none;
+}
+  ul ul li{   
+    display: block;
+    font-size: 12px;
+}
+  ul ul li ul li{
+    display: block; 
+}
+  ul li:hover ul{
+    display: block;
+}
+  ul ul li ul li:hover ul{ 
+    display: block;
+} 
+section{
+    background-color: white;
+    
+}
+section article{
+    display: grid;
+    background-color: white;
+    border: gray solid 1px;
+
+}
+
+.video-responsive{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    height: auto;
+    overflow: auto;
+}
+div article table{
+    text-align: center;
+}
+
+
+
+
+article{
+    flex-grow: 20;
+    background-color: white;
+  
+}
+#main{
+    display: flex;
+    flex: 1;
+    
+}
+
+
+.gridCelulares{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-row-gap: 10px;
+    grid-column-gap: 200px;
+    justify-content: start;
+    
+    
+}
+.hijoGrid :hover{
+   border: black solid 1px;
+   transform: scale(2, 2);
+   
+}
+
+
+
+.d-block{
+    width: 150px;
+    height: 150px;
+    object-fit: scale-down;
+    
+    
+}
+
+#pagina {
+    text-align: center;
+    background-color: white;
+}
+
+.logoNoticias{
+    text-align: center;
+    height: auto;
+    width: 100%;
+
+}
+.page-item{
+   background-color: white;
+}
+
+/*seccion videos noticias*/
+.video-responsive {
+ 
+    position: relative;
+    padding-bottom: 56.25%; /* 16/9 ratio */
+    padding-top: 30px; /* IE6 workaround*/
+    height: 0;
+    overflow: hidden;
+    }
+    
+    .video-responsive iframe,
+
+    .video-responsive object,
+
+    .video-responsive embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    }
+
+
+@media screen and (max-width: 320px){
+
+        section article div div div div{
+          display: grid;
+          grid-template-columns: auto;
+          grid-template-rows: auto;
+          grid-row-gap: 20px;
+          grid-column-gap: 150px;
+          justify-content: center;
+          overflow: auto;
+}
+        aside{
+            display: grid;
+            overflow: auto;
+            font-size: small;
+        }
+        .gridCelulares{
+            display: grid;
+            grid-template-columns: auto;
+            grid-template-rows: auto;
+            grid-row-gap: 10px;
+            grid-column-gap: 200px;
+            justify-content: start;
+            overflow: auto;
+            
+        }
+        .hijoGrid :hover{
+           border: black solid 1px;
+           transform: scale(1, 1);
+           
+        }
+        }
+        
+        
+
+
+@media screen  and (max-width: 600px){
+
+    section article div div div div{
+          display: grid;
+          grid-template-columns: auto;
+          grid-template-rows: auto;
+          grid-row-gap: 20px;
+          grid-column-gap: 150px;
+          justify-content: center;
+          overflow: auto;
+}
+    aside{
+         display: grid;
+         overflow: auto;
+         font-size: small;
+}
+.gridCelulares{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    grid-row-gap: 10px;
+    grid-column-gap: 200px;
+    justify-content: start;
+    overflow: auto;
+    
+}
+.hijoGrid :hover{
+   border: black solid 1px;
+   transform: scale(2, 2);
+   
+}
+
+}
+
+
+@media screen  and (max-width: 1000px){
+
+    section article div div div div{
+          display: grid;
+          grid-template-columns: auto;
+          grid-template-rows: auto;
+          grid-row-gap: 20px;
+          grid-column-gap: 150px;
+          justify-content: center;
+          overflow: auto;
+}
+    aside{
+         display: grid;
+         overflow: auto;
+}
+.gridCelulares{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-row-gap: 10px;
+    grid-column-gap: 200px;
+    justify-content: start;
+    overflow: auto;
+    
+}
+.hijoGrid :hover{
+   border: black solid 1px;
+   transform: scale(2, 2);
+   
+}
+}
+   /* Estilos para pagina error 404*/
+body { 
+     background-image: url(./fondo.jpg);}
+.error-template {
+    padding: 40px 15px;
+    text-align: center;
+}
+.error-actions {
+    margin-top:15px;
+    margin-bottom:15px;
+}
+.error-actions .btn { 
+    margin-right:10px; 
+}
